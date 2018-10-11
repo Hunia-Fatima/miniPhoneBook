@@ -1,0 +1,26 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Phone Book</h1>
+    <p class="lead">Phone Book is a tiny app to help you manage your contacts. You can add, remove and edit your contacts</p>
+    <p><a href="http://localhost:49543/Person/Create" class="btn btn-primary btn-lg">Manage Your Contacts &raquo;</a></p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Total Contacts</h2>
+        <p>
+            You have added @ViewBag.numberOfContacts total of contacts to your contacts list.
+        </p>
+    </div>
+    <div class="col-md-4">
+        <h2>Upcoming Birthdays</h2>
+        <p>You are going to wish these people birthdays in coming days.</p>
+    </div>
+    <div class="col-md-4">
+        <h2>Recent Updated Contacts</h2>
+        <p>You have updated the following contacts recently.</p>
+    </div>
+</div>
